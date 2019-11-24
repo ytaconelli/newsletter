@@ -25,7 +25,6 @@
     $texto = $_POST['email'];
     $texto = "$texto\n";
     fwrite($arquivo, $texto);
-
     fclose($arquivo);
 
     ?>
